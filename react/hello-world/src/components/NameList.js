@@ -22,7 +22,7 @@ function NameList() {
             skill: 'TypeScript'
         }
     ]
-    const personList = persons.map(person => <Person person={person}></Person>)
+    const personList = persons.map(person => <Person key={person.id} person={person}></Person>)
     return (
         <div>
             {
