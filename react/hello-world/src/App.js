@@ -8,6 +8,7 @@ import Message from './components/Message';
 import Counter from './components/Counter';
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
+import EventBind from './components/EventBind';
 
 function App() {
   return (
@@ -18,12 +19,13 @@ function App() {
       {/* <GreetProp name="Akhil" /> */}
       {/* <button>Hit Me</button> */}
       {/* </GreetProp> */}
-      <GreetProp name="APJ" />
+      {/* <GreetProp name="APJ" /> */}
 
       {/* <Message></Message> */}
       {/* <Counter></Counter> */}
       {/* <FunctionClick></FunctionClick> */}
-      <ClassClick></ClassClick>
+      {/* <ClassClick></ClassClick> */}
+      <EventBind></EventBind>
     </div>
   );
 }
