@@ -17,12 +17,16 @@ import Form from './components/Form';
 import LifeCycleA from './components/LifeCycleA';
 import FragmentDemo from './FragmentDemo';
 import Tables from './components/Tables';
+import PureComponent from './components/PureComp';
+import ParentComp from './components/ParentComp';
 
 function App() {
   return (
     <div className="App">
+      <ParentComp />
+      {/* <PureComponent /> */}
       {/* <FragmentDemo /> */}
-      <Tables />
+      {/* <Tables /> */}
       {/* <LifeCycleA/> */}
       {/* <Form /> */}
       {/* <Stylesheet primary={true}></Stylesheet> */}
