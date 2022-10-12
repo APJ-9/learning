@@ -15,11 +15,15 @@ import NameList from './components/NameList';
 import Stylesheet from './components/Stylesheet';
 import Form from './components/Form';
 import LifeCycleA from './components/LifeCycleA';
+import FragmentDemo from './FragmentDemo';
+import Tables from './components/Tables';
 
 function App() {
   return (
     <div className="App">
-      <LifeCycleA />
+      {/* <FragmentDemo /> */}
+      <Tables />
+      {/* <LifeCycleA/> */}
       {/* <Form /> */}
       {/* <Stylesheet primary={true}></Stylesheet> */}
       {/* <UserGreeting /> */}
