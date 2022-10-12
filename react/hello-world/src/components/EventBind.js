@@ -17,7 +17,7 @@ class EventBind extends Component {
     //     })
     //     console.log(this)
     // }
-
+    //Approch 3 is good given in the documentation
     clickHandler = () => {
         // used in method 4
         this.setState({
