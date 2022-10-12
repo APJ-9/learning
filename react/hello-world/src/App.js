@@ -12,12 +12,14 @@ import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from './UserGreeting';
 import NameList from './components/NameList';
+import Stylesheet from './components/Stylesheet';
 
 function App() {
   return (
     <div className="App">
+      <Stylesheet primary={true}></Stylesheet>
       {/* <UserGreeting /> */}
-      <NameList />
+      {/* <NameList /> */}
       {/* <Greet /> */}
       {/* <Welcome name="Akhil" shortHand="APJ" /> */}
       {/* <Hello /> */}
@@ -32,7 +34,7 @@ function App() {
       {/* <ClassClick></ClassClick> */}
       {/* <EventBind></EventBind> */}
       {/* <ParentComponent></ParentComponent> */}
-    </div>
+    </div >
   );
 }
 
