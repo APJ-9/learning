@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mi Mobile Phones</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.jpeg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header class="header-section">
+        <nav class="nav-section">
+            <div class="logos">
+                <div class="flip-logo">
+                    <a href="www.google.com"><img src="img/flipkartlogo.png" alt="" width=""></a>
+                </div>
+                <div class="flip-plus">
+                    <a href="www.google.com"><i>
+                            <p>Explore <span>Plus</span>
+                        </i></p><img src="img/pluslogo.png" alt=""></a>
+                </div>
+            </div>
+            <div class="search-bar">
+                <form>
+                    <div class="searchbox">
+
+                        <input type="text" placeholder="Search for products,brands and more">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </div>
+                </form>
+            </div>
+            <div class="login">
+                <button class="login-btn">Login</button>
+            </div>
+            <div class="BaS">
+                <h3>Become a Seller</h3>
+            </div>
+            <div class="more">
+                <h3>More</h3><i class="fa fa-angle-down" aria-hidden="true"></i>
+            </div>
+            <div class="cart">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                <h3>Cart</h3>
+            </div>
+        </nav>
+    </header>
+
+    <section class="drop-down-list">
+        <ul>
+            <li>Electronics<i class="fa fa-angle-down" aria-hidden="true"></i></li>
+            <li>TVs & Appliances<i class="fa fa-angle-down" aria-hidden="true"></i></li>
+            <li>Men<i class="fa fa-angle-down" aria-hidden="true"></i></li>
+            <li>Women<i class="fa fa-angle-down" aria-hidden="true"></i></li>
+            <li>Baby & Kids<i class="fa fa-angle-down" aria-hidden="true"></i></li>
+            <li>Home & Furniture<i class="fa fa-angle-down" aria-hidden="true"></i></li>
+            <li>Sports,Books & More<i class="fa fa-angle-down" aria-hidden="true"></i></li>
+            <li>Flights</li>
+            <li>Offer Zone</li>
+        </ul>
+    </section>
+
+    <section class="main-section">
+        <section class="left-side">
+            <div class="filters">
+                <h3>Filters</h3>
+            </div>
+            <div class="line"></div>
+            <div class="categories">
+                <p class="left-p-tag-head">CATEGORIES</p>
+                <div class="element">
+                    <i class="fa fa-angle-left"></i>
+                    <p>Mobile & Accessories</p>
+                </div>
+                <br>
+                <li>Mobiles</li>
+            </div>
+            <br>
+            <div class="line"></div>
+            <div class="price">
+                <p class="left-p-tag-head">PRICE</p>
+                <div class="range-slider">
+                    <input type="range" min="1" max="100" value="10" class="myslider" id="sliderRange">
+                </div>
+                <select name="minPrice" id="minPrice">
+                    <option value="0">Min</option>
+                    <option value="2000">2000</option>
+                    <option value="4000">4000</option>
+                    <option value="7000">7000</option>
+                    <option value="10000">10000</option>
+                    <option value="13000">13000</option>
+                    <option value="16000">16000</option>
+                    <option value="20000">20000</option>
+                    <option value="25000">25000</option>
+                    <option value="30000">30000</option>
+                    <option value="50000">50000</option>
+                </select>
+
+                <select name="maxPrice" id="maxPrice">
+                    <option value="999999">50000+</option>
+                    <option value="2000">2000</option>
+                    <option value="4000">4000</option>
+                    <option value="7000">7000</option>
+                    <option value="10000">10000</option>
+                    <option value="13000">13000</option>
+                    <option value="16000">16000</option>
+                    <option value="20000">20000</option>
+                    <option value="25000">25000</option>
+                    <option value="30000">30000</option>
+                    <option value="50000">50000</option>
+                </select>
+
+            </div>
+            <br>
+            <div class="line"></div>
+            <!--
+            Price field is not done yet it has to combine with the javascript and the designing css is left undone.
+        -->
+            <div class="brand">
+                <p class="left-p-tag-head">BRAND</p>
+                <div class="left-checkbox">
+                    <input type="checkbox" id="mi" name="mi" value="mi">
+                    <label for="mi"> Mi</label><br>
+                </div>
+            </div>
+            <br>
+            <div class="line"></div>
+            <div class="flip-assured">
+                <input type="checkbox" id="flip-assured" name="flip-assured" value="flip-assured">
+                <label for="flip-assured"><img src="img/assured.png" alt="flipkart assured logo"></label><i
+                    class="fa fa-question-circle-o" aria-hidden="true"></i>
+            </div>
+            <br>
+            <div class="line"></div>
+            <div class="customer-rating">
+                <p class="left-p-tag-head">CUSTOMER RATINGS
+                    <button class="mybtn" id="mybtn" onclick="showHide()">
+                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    </button>
+                </p>
+                <div class="rating-star" id="box-1">
+                    <div class="checkbox-element">
+                        <input type="checkbox" id="4star" name="4star" value="4"> <label for="4star">4 <i
+                                class="fa fa-star" aria-hidden="true"></i> & above</label>
+                    </div>
+                    <div class="checkbox-element">
+                        <input type="checkbox" id="3star" name="3star" value="3"> <label for="3star">3 <i
+                                class="fa fa-star" aria-hidden="true"></i> & above</label>
+                    </div>
+                    <div class="checkbox-element">
+                        <input type="checkbox" id="2star" name="2star" value="2"> <label for="2star">2 <i
+                                class="fa fa-star" aria-hidden="true"></i> & above</label>
+                    </div>
+                    <div class="checkbox-element">
+                        <input type="checkbox" id="1star" name="1star" value="1"> <label for="1star">1 <i
+                                class="fa fa-star" aria-hidden="true"></i> & above</label>
+                    </div>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="gst">
+                <p class="left-p-tag-head">GST INVOICE AVAILABLE</p>
+                <div class="gst-checkbox">
+                    <div class="checkbox-element">
+                        <input type="checkbox" id="1star" name="1star" value="1"> <label for="1star">GST Invoice
+                            Available</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="ram">
+                <p class="left-p-tag-head">RAM
+                    <!--Add the button and arrow tag i here-->
+                </p>
+                <div class="ram-checkbox">
+                    <div class="checkbox-element">
+                        <input type="checkbox" id="4" name="4" value="4"> <label for="4">4 GB</label>
+                    </div>
+                    <div class="checkbox-element">
+                        <input type="checkbox" id="3" name="3" value="3"> <label for="3">3 GB</label>
+                    </div>
+                    <div class="checkbox-element">
+                        <input type="checkbox" id="2" name="2" value="2"> <label for="2">2 GB</label>
+                    </div>
+                    <div class="checkbox-element">
+                        <input type="checkbox" id="6" name="6" value="6"> <label for="6">6 GB</label>
+                    </div>
+                    <div class="checkbox-element">
+                        <input type="checkbox" id="8" name="8" value="8"> <label for="8">8 GB and Above</label>
+                    </div>
+                    <div class="checkbox-element">
+                        <input type="checkbox" id="1" name="1" value="1"> <label for="1">1 GB and Below</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="internal-storage">
+                <p class="left-p-tag-head">INTERNAL STORAGE
+                    <!--Add the button and arrow tag i here-->
+                </p>
+                <div class="internal-storage-checkbox">
+                    <div class="checkbox-element">
+                        <input type="checkbox" name="256"> <label for="256">256 GB and Above</label>
+                    </div>
+                    <div class="checkbox-element">
+                        <input type="checkbox" name="128"> <label for="128">128-255.9 GB</label>
+                    </div>
+                    <div class="checkbox-element">
+                        <input type="checkbox" name="64"> <label for="64">64-127.9 GB</label>
+                    </div>
+                    <div class="checkbox-element">
+                        <input type="checkbox" name="32"> <label for="32">32-63.9 GB</label>
+                    </div>
+                    <div class="checkbox-element">
+                        <input type="checkbox" name="16"> <label for="16">16-31.9 GB</label>
+                    </div>
+                    <div class="checkbox-element">
+                        <input type="checkbox" name="8"> <label for="8">8-15.9 GB</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="battery-capacity">
+                <p class="left-p-tag-head">BATTERY CAPACITY
+                    <!--Add the button and arrow tag i here-->
+                </p>
+                <div class="battery-capacity-ckeckbox">
+                    <div class="checkbox-element">
+                        <input type="checkbox" name="2000"> <label for="2000">2000 - 2999 mAh</label>
+                    </div>
+                    <div class="checkbox-element">
+                        <input type="checkbox" name="3000"> <label for="3000">3000 - 3999 mAh</label>
+                    </div>
+                    <div class="checkbox-element">
+                        <input type="checkbox" name="4000"> <label for="4000">4000 - 4999 mAh</label>
+                    </div>
+                    <div class="checkbox-element">
+                        <input type="checkbox" name="5000"> <label for="5000">5000 - 5999 mAh</label>
+                    </div>
+                    <div class="checkbox-element">
+                        <input type="checkbox" name="6000"> <label for="6000">6000 mAh & Above</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="screen-size">
+                <p class="left-p-tag-head">SCREEN SIZE
+                    <!--Add the button and arrow tag i here-->
+                </p>
+                <div class="screen-size-checkbox">
+                    <div class="checkbox-element">
+                        <input type="checkbox" name="5.7"> <label for="5.7">5.7 - 5.9 inch</label>
+                    </div>
+                    <div class="checkbox-element">
+                        <input type="checkbox" name="5.5"> <label for="5.5">5.5 - 5.6 inch</label>
+                    </div>
+                    <div class="checkbox-element">
+                        <input type="checkbox" name="5.2"> <label for="5.2">5.2 - 5.4 inch</label>
+                    </div>
+                    <div class="checkbox-element">
+                        <input type="checkbox" name="5"> <label for="5">5 - 5.1 inch</label>
+                    </div>
+                    <div class="checkbox-element">
+                        <input type="checkbox" name="4.5"> <label for="4.5">4.5 - 4.9 inch</label>
+                    </div>
+                    <div class="checkbox-element">
+                        <input type="checkbox" name="6.4"> <label for="6.4">6.4 inch & Above</label>
+                    </div>
+                    <div class="checkbox-element">
+                        <input type="checkbox" name="6"> <label for="6">6 - 6.3 inch</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="primary-camera">
+                <p class="left-p-tag-head">SCREEN SIZE
+                    <!--Add the button and arrow tag i here-->
+                </p>
+                <div class="primary-camera-checkbox">
+                    <div class="checkbox-element">
+                        <input type="checkbox" name="8"> <label for="8">8 - 11.9 MP</label>
+                    </div>
+                    <div class="checkbox-element">
+                        <input type="checkbox" name="12"> <label for="12">12 - 15.9 MP</label>
+                    </div>
+                    <div class="checkbox-element">
+                        <input type="checkbox" name="16"> <label for="16">16 - 20.9 MP</label>
+                    </div>
+                    <div class="checkbox-element">
+                        <input type="checkbox" name="48"> <label for="48">48 - 63.9 MP</label>
+                    </div>
+                    <div class="checkbox-element">
+                        <input type="checkbox" name="64"> <label for="64">64 MP & Above</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="secondary-camera">
+                <p class="left-p-tag-head">SCREEN SIZE
+                    <!--Add the button and arrow tag i here-->
+                </p>
+                <div class="secondary-camera-checkbox">
+                    <div class="checkbox-element">
+                        <input type="checkbox" name="12"> <label for="12">12 - 15.9 MP</label>
+                    </div>
+                    <div class="checkbox-element">
+                        <input type="checkbox" name="16"> <label for="16">16 - 20.9 MP</label>
+                    </div>
+                    <div class="checkbox-element">
+                        <input type="checkbox" name="21"> <label for="21">21 MP & Above</label>
+                    </div>
+                    <div class="checkbox-element">
+                        <input type="checkbox" name="5"> <label for="5">5 - 7.9 MP</label>
+                    </div>
+                    <div class="checkbox-element">
+                        <input type="checkbox" name="4.9"> <label for="4.9">Below 5 MP</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+            <!-- Have to add from processor brand-->
+        </section>
+        <section class="right-side">
+            <div class="mobile-section-header">
+                <p class="address">Home > Mobiles & Accessories > Mobiles</p>
+                <div class="mobile-filter">
+                    <p>Redmi Mobile Phones Under 10000</p> |<p> Redmi Mobile Pones Under 15000</p> |<p> Redmi Mobile
+                        Phones Under 20000</p>
+                </div>
+                <div class="mobile-heading">
+                    <h3>Mi Mobiles</h3>
+                    <p>(Showing 1-24 products of 391 products)</p>
+                </div>
+                <div class="sort-section">
+                    <h4>Sort By</h4>
+                    <ul>
+                        <li style="color: #2874f0;">Popularity</li>
+                        <li>Price--Low to High</li>
+                        <li>Price--High to Low</li>
+                        <li>Newest First</li>
+                    </ul>
+                </div>
+
+                <div class="line"></div>
+
+            </div>
+
+
+
+            <div class="mobile-section">
+                <div class="mobile-image">
+                    <img src="img/1.webp" alt="image of Mobile">
+                    <!-- <i class="fa fa-heart" aria-hidden="true"></i>-->
+                    <input type="checkbox" name="add-to-compare"><label for="add-to-compare">Add to Compare</label>
+                </div>
+                <div class="mobile-details">
+                    <div class="mobile-details-inner">
+                        <h3> Redmi 9A Sport (Coral Green, 32 GB)</h3>
+                        <p class="rating">4.2 <i class="fa fa-star"></i></p>
+                        <p>3,393 Ratings & 272 Reviews</p>
+                        <ul>
+                            <li>3 GB RAM | 32 GB ROM | Expandable Upto 512 GB</li>
+                            <li>16.59 cm (6.53 inch) HD+ Display</li>
+                            <li>13MP Rear Camera | 5MP Front Camera</li>
+                            <li>5000 mAh Battery</li>
+                            <li>MediaTek Helio G25 Processor</li>
+                            <li>1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box
+                                accessories including batteries from the date of purchase</li>
+                        </ul>
+                    </div>
+                    <div class="mobile-price">
+                        <div class="pri-assured">
+                            <h2>&#8377;7,865</h2>
+                            <img src="img/assured.png" alt="">
+                        </div>
+                        <div class="inner">
+                            <p class="price">&#8377;8,214</p>
+                            <p class="off">4% off</p>
+                            <p class="delivery">Free delivery</p>
+                        </div>
+                        <h3 class="offer">Bank Offer</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="mobile-section">
+                <div class="mobile-image">
+                    <img src="img/1.webp" alt="image of Mobile">
+                    <!-- <i class="fa fa-heart" aria-hidden="true"></i>-->
+                    <input type="checkbox" name="add-to-compare"><label for="add-to-compare">Add to Compare</label>
+                </div>
+                <div class="mobile-details">
+                    <div class="mobile-details-inner">
+                        <h3> Redmi 9A Sport (Coral Green, 32 GB)</h3>
+                        <p class="rating">4.2 <i class="fa fa-star"></i></p>
+                        <p>3,393 Ratings & 272 Reviews</p>
+                        <ul>
+                            <li>3 GB RAM | 32 GB ROM | Expandable Upto 512 GB</li>
+                            <li>16.59 cm (6.53 inch) HD+ Display</li>
+                            <li>13MP Rear Camera | 5MP Front Camera</li>
+                            <li>5000 mAh Battery</li>
+                            <li>MediaTek Helio G25 Processor</li>
+                            <li>1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box
+                                accessories including batteries from the date of purchase</li>
+                        </ul>
+                    </div>
+                    <div class="mobile-price">
+                        <div class="pri-assured">
+                            <h2>&#8377;7,865</h2>
+                            <img src="img/assured.png" alt="">
+                        </div>
+                        <div class="inner">
+                            <p class="price">&#8377;8,214</p>
+                            <p class="off">4% off</p>
+                            <p class="delivery">Free delivery</p>
+                        </div>
+                        <h3 class="offer">Bank Offer</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="mobile-section">
+                <div class="mobile-image">
+                    <img src="img/1.webp" alt="image of Mobile">
+                    <!-- <i class="fa fa-heart" aria-hidden="true"></i>-->
+                    <input type="checkbox" name="add-to-compare"><label for="add-to-compare">Add to Compare</label>
+                </div>
+                <div class="mobile-details">
+                    <div class="mobile-details-inner">
+                        <h3> Redmi 9A Sport (Coral Green, 32 GB)</h3>
+                        <p class="rating">4.2 <i class="fa fa-star"></i></p>
+                        <p>3,393 Ratings & 272 Reviews</p>
+                        <ul>
+                            <li>3 GB RAM | 32 GB ROM | Expandable Upto 512 GB</li>
+                            <li>16.59 cm (6.53 inch) HD+ Display</li>
+                            <li>13MP Rear Camera | 5MP Front Camera</li>
+                            <li>5000 mAh Battery</li>
+                            <li>MediaTek Helio G25 Processor</li>
+                            <li>1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box
+                                accessories including batteries from the date of purchase</li>
+                        </ul>
+                    </div>
+                    <div class="mobile-price">
+                        <div class="pri-assured">
+                            <h2>&#8377;7,865</h2>
+                            <img src="img/assured.png" alt="">
+                        </div>
+                        <div class="inner">
+                            <p class="price">&#8377;8,214</p>
+                            <p class="off">4% off</p>
+                            <p class="delivery">Free delivery</p>
+                        </div>
+                        <h3 class="offer">Bank Offer</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="mobile-section">
+                <div class="mobile-image">
+                    <img src="img/1.webp" alt="image of Mobile">
+                    <!-- <i class="fa fa-heart" aria-hidden="true"></i>-->
+                    <input type="checkbox" name="add-to-compare"><label for="add-to-compare">Add to Compare</label>
+                </div>
+                <div class="mobile-details">
+                    <div class="mobile-details-inner">
+                        <h3> Redmi 9A Sport (Coral Green, 32 GB)</h3>
+                        <p class="rating">4.2 <i class="fa fa-star"></i></p>
+                        <p>3,393 Ratings & 272 Reviews</p>
+                        <ul>
+                            <li>3 GB RAM | 32 GB ROM | Expandable Upto 512 GB</li>
+                            <li>16.59 cm (6.53 inch) HD+ Display</li>
+                            <li>13MP Rear Camera | 5MP Front Camera</li>
+                            <li>5000 mAh Battery</li>
+                            <li>MediaTek Helio G25 Processor</li>
+                            <li>1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box
+                                accessories including batteries from the date of purchase</li>
+                        </ul>
+                    </div>
+                    <div class="mobile-price">
+                        <div class="pri-assured">
+                            <h2>&#8377;7,865</h2>
+                            <img src="img/assured.png" alt="">
+                        </div>
+                        <div class="inner">
+                            <p class="price">&#8377;8,214</p>
+                            <p class="off">4% off</p>
+                            <p class="delivery">Free delivery</p>
+                        </div>
+                        <h3 class="offer">Bank Offer</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="mobile-section">
+                <div class="mobile-image">
+                    <img src="img/1.webp" alt="image of Mobile">
+                    <!-- <i class="fa fa-heart" aria-hidden="true"></i>-->
+                    <input type="checkbox" name="add-to-compare"><label for="add-to-compare">Add to Compare</label>
+                </div>
+                <div class="mobile-details">
+                    <div class="mobile-details-inner">
+                        <h3> Redmi 9A Sport (Coral Green, 32 GB)</h3>
+                        <p class="rating">4.2 <i class="fa fa-star"></i></p>
+                        <p>3,393 Ratings & 272 Reviews</p>
+                        <ul>
+                            <li>3 GB RAM | 32 GB ROM | Expandable Upto 512 GB</li>
+                            <li>16.59 cm (6.53 inch) HD+ Display</li>
+                            <li>13MP Rear Camera | 5MP Front Camera</li>
+                            <li>5000 mAh Battery</li>
+                            <li>MediaTek Helio G25 Processor</li>
+                            <li>1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box
+                                accessories including batteries from the date of purchase</li>
+                        </ul>
+                    </div>
+                    <div class="mobile-price">
+                        <div class="pri-assured">
+                            <h2>&#8377;7,865</h2>
+                            <img src="img/assured.png" alt="">
+                        </div>
+                        <div class="inner">
+                            <p class="price">&#8377;8,214</p>
+                            <p class="off">4% off</p>
+                            <p class="delivery">Free delivery</p>
+                        </div>
+                        <h3 class="offer">Bank Offer</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="mobile-section">
+                <div class="mobile-image">
+                    <img src="img/1.webp" alt="image of Mobile">
+                    <!-- <i class="fa fa-heart" aria-hidden="true"></i>-->
+                    <input type="checkbox" name="add-to-compare"><label for="add-to-compare">Add to Compare</label>
+                </div>
+                <div class="mobile-details">
+                    <div class="mobile-details-inner">
+                        <h3> Redmi 9A Sport (Coral Green, 32 GB)</h3>
+                        <p class="rating">4.2 <i class="fa fa-star"></i></p>
+                        <p>3,393 Ratings & 272 Reviews</p>
+                        <ul>
+                            <li>3 GB RAM | 32 GB ROM | Expandable Upto 512 GB</li>
+                            <li>16.59 cm (6.53 inch) HD+ Display</li>
+                            <li>13MP Rear Camera | 5MP Front Camera</li>
+                            <li>5000 mAh Battery</li>
+                            <li>MediaTek Helio G25 Processor</li>
+                            <li>1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box
+                                accessories including batteries from the date of purchase</li>
+                        </ul>
+                    </div>
+                    <div class="mobile-price">
+                        <div class="pri-assured">
+                            <h2>&#8377;7,865</h2>
+                            <img src="img/assured.png" alt="">
+                        </div>
+                        <div class="inner">
+                            <p class="price">&#8377;8,214</p>
+                            <p class="off">4% off</p>
+                            <p class="delivery">Free delivery</p>
+                        </div>
+                        <h3 class="offer">Bank Offer</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="end-number-section">
+                <p style="padding-left: 20px;">Page 1 of 17</p>
+                <h4>Previous</h4>
+                <div class="page-number">
+                    <a href="#">&laquo;</a>
+                    <a class="active" href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#">6</a>
+                    <a href="#">7</a>
+                    <a href="#">8</a>
+                    <a href="#">9</a>
+                    <a href="#">10</a>
+                    <a href="#">&raquo;</a>
+                </div>
+                <h4>Next</h4>
+                <div></div>
+            </div>
+
+
+            <div class="did-you-find">
+                <h4>Did you find what you were looking for?</h4> <button class="did-btn-1">Yes</button><button
+                    class="did-btn-2">No</button>
+            </div>
+
+        </section>
+
+    </section>
+
+    <section class="review-section">
+        <h3>Reviews for Popular Mi Mobiles</h3>
+        <div class="review-mobile-section">
+            <div class="image">
+                <img src="img/2.webp" alt="">
+            </div>
+            <div class="mobile-details">
+                <h3>1. Redmi 9A (Nature Green, 32 ...</h3>
+                <div class="rating">
+                    <p class="green">4.3 <i class="fa fa-star" aria-hidden="true"></i></p>
+                    <p>13,170 Ratings & 831 Reviews</p>
+                </div>
+                <div class="price">
+                    <p class="money">&#8377;7,999</p>
+                    <p class="off">3% off</p>
+                </div>
+                <div class="spec">
+                    <ul>
+                        <li>3 GB RAM | 32 GB ROM | Expandable Upto 512 GB</li>
+                        <li>16.59 cm (6.53 inch) HD+ Display</li>
+                        <li>13MP Rear Camera | 5MP Front Camera</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="most-helpful-review">
+                <h4> Most Helpful Review</h4>
+                <div class="rating">
+                    <p class="green">4&nbsp;<i class="fa fa-star" aria-hidden="true"></i></p>
+                    <p>Value-for-money</p>
+                </div>
+                <p>Working well after 3 days of using. Battery back up fine for normal usage. I had gifted this to my
+                    mom she is happy. Genuine phone in this range segment.</p>
+                <div class="buyer-details">
+                    <p><strong>Ankit Singh </strong> <i style="font-size: 14px;" class="fa fa-check-circle"
+                            aria-hidden="true"></i> Certified Buyer Sep, 2020</p>
+                </div>
+            </div>
+            <div class="recent-review">
+                <h4> Recent Review</h4>
+                <div class="rating">
+                    <p class="green">3&nbsp;<i style="font-size: 12px;" class="fa fa-star" aria-hidden="true"></i></p>
+                    <p>Does the job</p>
+                </div>
+                <p>Build quality is awasam 🔥🔥 ,, best phone in this price range</p>
+                <div class="buyer-details">
+                    <p><strong>Anjay Giri</strong> <i style="font-size: 14px;" class="fa fa-check-circle"
+                            aria-hidden="true"></i> Certififed Buyer 4days ago</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="review-mobile-section">
+            <div class="image">
+                <img src="img/2.webp" alt="">
+            </div>
+            <div class="mobile-details">
+                <h3>1. Redmi 9A (Nature Green, 32 ...</h3>
+                <div class="rating">
+                    <p class="green">4.3 <i class="fa fa-star" aria-hidden="true"></i></p>
+                    <p>13,170 Ratings & 831 Reviews</p>
+                </div>
+                <div class="price">
+                    <p class="money">&#8377;7,999</p>
+                    <p class="off">3% off</p>
+                </div>
+                <div class="spec">
+                    <ul>
+                        <li>3 GB RAM | 32 GB ROM | Expandable Upto 512 GB</li>
+                        <li>16.59 cm (6.53 inch) HD+ Display</li>
+                        <li>13MP Rear Camera | 5MP Front Camera</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="most-helpful-review">
+                <h4> Most Helpful Review</h4>
+                <div class="rating">
+                    <p class="green">4&nbsp;<i class="fa fa-star" aria-hidden="true"></i></p>
+                    <p>Value-for-money</p>
+                </div>
+                <p>Working well after 3 days of using. Battery back up fine for normal usage. I had gifted this to my
+                    mom she is happy. Genuine phone in this range segment.</p>
+                <div class="buyer-details">
+                    <p><strong>Ankit Singh </strong> <i style="font-size: 14px;" class="fa fa-check-circle"
+                            aria-hidden="true"></i> Certified Buyer Sep, 2020</p>
+                </div>
+            </div>
+            <div class="recent-review">
+                <h4> Recent Review</h4>
+                <div class="rating">
+                    <p class="green">3&nbsp;<i style="font-size: 12px;" class="fa fa-star" aria-hidden="true"></i></p>
+                    <p>Does the job</p>
+                </div>
+                <p>Build quality is awasam 🔥🔥 ,, best phone in this price range</p>
+                <div class="buyer-details">
+                    <p><strong>Anjay Giri</strong> <i style="font-size: 14px;" class="fa fa-check-circle"
+                            aria-hidden="true"></i> Certififed Buyer 4days ago</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="footer-above">
+                <div class="above-details">
+                    <div class="left">
+                        <a href="#">Music Player Mobiles,Mobiles & Accessories ,iOS Mobiles ,Octa Core Mobiles ,Android
+                            Mobiles ,HD Recording Mobiles ,Smartphones Mobiles ,Feature Phones Mobiles ,NFC Mobiles</a>
+                        <h1>Mi Mobiles - Where Trend Meets Performance</h1>
+                        <p>There is nothing more annoying than getting stuck on one page while browsing the internet.
+                            Imagine you are chatting with your friends on Whatsapp, and want to send something
+                            interesting that you came across on Facebook, and by the time you share it, your phone hangs
+                            and you have to wait for a couple of minutes just to load a page. Well, this is a sign that
+                            your phone needs an update. Switch to Mi mobiles and experience a glitch-free performance.
+                        </p>
+                        <h1>Redmi 9i</h1>
+                        <p>The <a href="#">Redmi 9i</a> smartphone is big on performance and multitasking. This
+                            high-performance phone features an immersive 16.58 cm (6.53) display. This large HD+ IPS
+                            screen delivers visuals with great clarity and vibrancy, bringing extra fun to your movies,
+                            videos, gaming, streaming, and more. You can rely on this Redmi mobile phone to keep you
+                            entertained when you are on the go or to work on important work projects, as it packs in a
+                            5000 mAh high capacity battery. With this long-lasting battery, you can enjoy up to 162
+                            hours of music, 25.5 hours of video watching, 11 hours of gaming, and 31 hours of calls on
+                            the Redmi 9i. You can ace your photography game and click stunning photographs on this
+                            phone, thanks to the AI scene detection technology on the camera. With this feature, you can
+                            transform your photos into stunning shots as it automatically adjusts the camera settings.
+                            With the 5 MP AI selfie camera, your selfies can look all the more beautiful. You can enjoy
+                            improved gaming and connectivity, thanks to the Helio G25 octa-core processor. The 4 GB RAM
+                            present in this phone can deliver efficiency and an overall smooth smartphone experience.
+                            The phone is also designed to be durable and reliable as it features a splash-proof design,
+                            corrosion-proof ports, and rubberised seals that prevent water ingression. </p>
+                        <h1>Redmi 9i Sport</h1>
+                        <p>Work hard and play harder with the <a href="#">Redmi 9i Sport</a>, designed to redefine your
+                            phone gaming experience. The MediaTek Helio G25 processor present in the smartphone features
+                            a HyperGame Engines Technology that can provide you with sustained gaming performance and
+                            enhanced connectivity on your phone. This octa-core processor features dynamic and
+                            intelligent GPU, CPU, and memory. The phone has a large HD+ IPS display to help you view
+                            content with great clarity. The efficient RAM and abundant storage space enable you to
+                            multitask and download apps without worrying. You can find a 13 MP rear camera and a 5 MP
+                            front-facing camera on the Redmi 9i Sport that can enable you to click impressive
+                            photographs and self-portraits. Convenient features like Palm Shutter help make it easy for
+                            you to capture joyous moments in a matter of seconds. In addition to the impressive array of
+                            features, this Redmi mobile phone is big on looks, as it features a premium design. The
+                            phone's design showcases concentric circles that give it an edgy look. The added grip makes
+                            handling the device easy. The phone is also designed to be splash-proof and corrosion-proof,
+                            giving it excellent durability. </p>
+                        <h1>Redmi 9 Power</h1>
+                        <p>Experience power-packed performance with the <a href="#">Redmi 9 Power</a> phone that
+                            delivers a smooth and fast performance. This phone has a massive battery with a capacity of
+                            6000 mAh to help you stay on top of all your important tasks. The phone features an ultra
+                            battery saver mode and supports 18 W fast charging and reverse charging to keep it ready to
+                            tackle your tasks at all times. The FHD+ IPS 16.58 cm (6.53) display of this phone can give
+                            you a cinematic viewing experience. You can view content with clear image quality with sharp
+                            and detailed visuals on the widescreen display of the phone. The 48 MP quad-camera array of
+                            this phone helps you seize every special moment with excellent details and clarity. You can
+                            capture more in every frame with the ultra-wide lens, capture pictures with added depth with
+                            the depth sensor, and capture minute details with the macro lens provided in the quad-camera
+                            array. The Redmi 9 Power smartphone comes with stereo speakers to provide superior sound
+                            quality to elevate your gaming, movie watching, and video calling experiences. The Qualcomm
+                            Snapdragon 662 processor of the phone delivers high performance without consuming a lot of
+                            power. This power-efficient processor aids in delivering stunning and detail-rich images on
+                            the 48 MP main camera at zero shutter lag. </p>
+                    </div>
+                    <div class="right">
+                        <h1>Mi Mobiles Price List</h1>
+
+                        <table class="table-1">
+                            <tr>
+                                <th>Mi Mobiles</th>
+                                <th>Price</th>
+                            </tr>
+                            
+                            <tr>
+                                <td><a href="#">Redmi 9A (Nature Green, 32 GB)</a></td>
+                                <td>Rs.6980</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">REDMI 10A (Slate grey, 64 GB)</a></td>
+                                <td>Rs. 8831</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Xiaomi 11i 5G (Camo Green, 128 GB)</a></td>
+                                <td>Rs. 26999</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Redmi 9A (Nature Green, 32 GB)</a></td>
+                                <td>Rs. 7999</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Redmi 9A (SeaBlue, 32 GB)</td>
+                                <td>Rs. 7096</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">REDMI 10 Power (Sporty Orange, 128 GB)</a></td>
+                                <td>Rs.14461</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Redmi Note 11 (Space Black, 128 GB)</a></td>
+                                <td>Rs. 15565</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Xiaomi 11i Hypercharge 5G (Purple Mist, 128 GB)</a></td>
+                                <td>Rs. 28999</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Redmi Note 11 PRO Plus 5G (Phantom White, 128 GB)</a></td>
+                                <td>Rs. 19980</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Redmi 9A Sport (Metallic Blue, 32 GB)</a></td>
+                                <td>Rs. 7747</td>
+                            </tr>
+                        </table>
+                        <p>This data was last updated on 2022/07/30</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-below">
+                <div class="footer-below-1">
+                    <div class="footer-below-1-1">
+                        <div class="about">
+                            <ul>
+                                <h1>ABOUT</h1>
+                                <li>Contact Us</li>
+                                <li>About Us</li>
+                                <li>Careers</li>
+                                <li>Flipkart Stories</li>
+                                <li>Press</li>
+                                <li>Flipkart Wholesale</li>
+                                <li>Corporate Information</li>
+                            </ul>
+                        </div>
+                        <div class="help">
+                            <ul>
+                                <h1>HELP</h1>
+                                <li>Payments</li>
+                                <li>Shipping</li>
+                                <li>Cancellation & Returns</li>
+                                <li>FAQ</li>
+                                <li>Report Infringement</li>
+                            </ul>
+                        </div>
+                        <div class="policy">
+                            <ul>
+                                <h1>POLICY</h1>
+                                <li>Return Policy</li>
+                                <li>Terms Of Use</li>
+                                <li>Privacy</li>
+                                <li>Sitemap</li>
+                                <li>EPR Compliance</li>
+                            </ul>
+                        </div>
+                        <div class="social">
+                            <ul>
+                                <h1>SOCIAL</h1>
+                                <li>Facebook</li>
+                                <li>Twitter</li>
+                                <li>YouTube</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="hline"></div>
+                    <div class="footer-below-1-2">
+                        <div class="mail-us">
+                            <h1>Mail Us</h1>
+                            <pre>Flipkart Internet Private Limited,
+Buildings Alyssa, Begonia &
+Clove Embassy Tech Village,    
+Outer Ring Road, Devarabeesanahalli Village,            
+Bengaluru, 560103,    
+Karnataka, India</pre>
+                        </div>
+                        <div class="office-address">
+                            <h1>Registered Office Address:</h1>
+                            <pre>Flipkart Internet Private Limited,
+Buildings Alyssa, Begonia &
+Clove Embassy Tech Village,
+Outer Ring Road, Devarabeesanahalli Village,
+Bengaluru, 560103,
+Karnataka, India
+CIN : U51109KA2012PTC066107
+Telephone: 044-45614700</pre>
+                        </div>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="footer-below-2">
+                    <p><i class="fa fa-suitcase" aria-hidden="true"></i> &nbsp;Become a Seller</p>
+                    <p><i class="fa fa-star" aria-hidden="true"></i>&nbsp;Advertise</p>
+                    <p><i class="fa fa-gift" aria-hidden="true"></i>&nbsp;Gift Cards</p>
+                    <p><i class="fa fa-question-circle" aria-hidden="true"></i> &nbsp;Help Center</p>
+                    <p>	&#169; 2007-2022 Flipkart.com</p>
+                    <p><img src="img/cards.svg" alt=""></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        function showHide() {
+            var x = document.getElementById("box-1");
+            if (x.style.display == "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>
