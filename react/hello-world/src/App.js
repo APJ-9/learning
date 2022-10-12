@@ -4,17 +4,20 @@ import Greet from './components/Greet'
 import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import GreetProp from './components/GreetProp';
+import Message from './components/Message';
 
 function App() {
   return (
     <div className="App">
-      <Greet />
-      <Welcome name="Akhil" shortHand="APJ" />
+      {/* <Greet /> */}
+      {/* <Welcome name="Akhil" shortHand="APJ" /> */}
       {/* <Hello /> */}
-      <GreetProp name="Akhil">
-        <button>Hit Me</button>
-      </GreetProp>
-      <GreetProp name="APJ" />
+      {/* <GreetProp name="Akhil"> */}
+      {/* <button>Hit Me</button> */}
+      {/* </GreetProp> */}
+      {/* <GreetProp name="APJ" /> */}
+
+      <Message></Message>
     </div>
   );
 }
