@@ -13,7 +13,7 @@ function App() {
       {/* <Greet /> */}
       {/* <Welcome name="Akhil" shortHand="APJ" /> */}
       {/* <Hello /> */}
-      {/* <GreetProp name="Akhil"> */}
+      <GreetProp name="Akhil" />
       {/* <button>Hit Me</button> */}
       {/* </GreetProp> */}
       {/* <GreetProp name="APJ" /> */}
