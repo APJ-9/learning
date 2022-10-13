@@ -10,12 +10,12 @@ import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
-import UserGreeting from './UserGreeting';
+import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
 import Stylesheet from './components/Stylesheet';
 import Form from './components/Form';
 import LifeCycleA from './components/LifeCycleA';
-import FragmentDemo from './FragmentDemo';
+import FragmentDemo from './components/FragmentDemo';
 import Tables from './components/Tables';
 import PureComponent from './components/PureComp';
 import ParentComp from './components/ParentComp';
@@ -26,12 +26,27 @@ import Hero from './components/Hero';
 import ErrorBoundary from './components/ErrorBoundary';
 import ClickCounter from './components/ClickCounter';
 import HoverCounter from './components/HoverCounter';
+import ClickCounterTwo from './components/ClickCounterTwo';
+import HoverCounterTwo from './components/HoverCounterTwo';
+import User from './components/User';
+import CounterTwo from './components/CounterTwo';
+import ComponentC from './components/ComponentC';
+import { UserProvider } from './components/userContext';
 
 function App() {
   return (
     <div className="App">
 
-      <HoverCounter />
+      <UserProvider value='Akhil'>
+        <ComponentC />
+      </UserProvider>
+
+      {/* <CounterTwo render={(count, incrementCount) => (<ClickCounterTwo count={count} incrementCount={incrementCount} />)} /> */}
+      {/* <CounterTwo render={(count, incrementCount) => (<HoverCounterTwo count={count} incrementCount={incrementCount} />)} /> */}
+      {/* <HoverCounterTwo />
+      <ClickCounterTwo />
+      <User render={(isLoggedIn) => isLoggedIn ? 'Akhil' : 'Guest'} /> */}
+      {/* <HoverCounter /> */}
       {/* <ClickCounter /> */}
       {/* <ErrorBoundary>
         <Hero heroName="Batman" />
