@@ -23,7 +23,6 @@ export const ParentFive = () => {
             <button onClick={() => setCount((c) => c + 1)}>Count {count}</button>
             <button onClick={() => setName('APJ')}>Change name</button>
             <MemoizedChildFive name={name} person={memoizedPerson} />
-            {/* <MemoizedChildFive name={name} handleClick={memoizedHandleClick} /> */}
         </div>
     )
 }
