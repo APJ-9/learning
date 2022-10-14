@@ -1,4 +1,5 @@
 import './App.css';
+import { Button } from './components/Button';
 import { Greet } from './components/Greet';
 import { Heading } from './components/Heading';
 import { Oscar } from './components/Oscar';
@@ -28,6 +29,11 @@ function App() {
     }
   ]
 
+  const dude = ({event,id}: any)=>{
+    alert(`Button Clicked ${event} ${id}`)
+    return 'hello'
+  }
+
   return (
     <div className="App">
       <Greet name="APJ" messageCount={10} isLoggedIn={true}></Greet>
@@ -38,6 +44,11 @@ function App() {
       <Heading>Placeholder text</Heading>
       </Oscar>
       <Greet name="Akhil"  isLoggedIn={true}></Greet>
+      <Greet name="Nidheesh"  isLoggedIn={true}></Greet>
+      <Greet name="Akhil"  isLoggedIn={true}></Greet>
+      <Greet name="Akhil"  isLoggedIn={true}></Greet>
+      <Greet name="Akhil"  isLoggedIn={true}></Greet>
+      <Button handleClick={dude}/>
     </div>
   );
 }
