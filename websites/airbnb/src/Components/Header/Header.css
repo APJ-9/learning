@@ -1,0 +1,145 @@
+.header-top {
+    display: block;
+    max-width: 743px;
+    margin: 10px 10px 0 22px;
+    padding: 8px 10px;
+    border: 1px solid #eee;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.search-area {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.search-icon {
+    display: flex;
+    min-width: 40px;
+    margin-right: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-icon-svg {
+    display: block;
+    height: 16px;
+    width: 16px;
+    fill: #333;
+}
+
+.text-area {
+    display: block;
+    width: 100%;
+}
+
+.text-area h3 {
+    font-size: 15px;
+}
+
+.text-area .any-text {
+    display: flex;
+    color: #5a5a5a;
+    width: 90%;
+}
+
+.text-area .any-text p {
+    font-size: 13px;
+    width: auto;
+    margin-right: 4px;
+    color: #5a5a5a;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+
+.filter {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+
+.filter-svg {
+    display: block;
+    height: 16px;
+    width: 16px;
+    fill: rgb(34, 34, 34);
+}
+
+.header-bottom {
+    position: relative;
+    padding: 10px;
+    margin-top: 16px;
+}
+
+.header-slider {
+    position: absolute;
+    top: 0;
+    left: 5px;
+    height: 60px;
+    width: 98%;
+    overflow: scroll;
+    z-index: 3;
+}
+
+.header-slider::-webkit-scrollbar {
+    display: none;
+}
+
+.header-slider-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200%;
+    display: flex;
+    transition: 0s ease-in;
+    background-color: #fff;
+    z-index: 3;
+}
+
+.header-slider-inner .element-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    /* background-color: yellow; */
+    padding: 0 9px 5px 9px;
+    margin: 0;
+    text-align: center;
+    white-space: nowrap;
+    color: #000;
+    font-weight: bold;
+    opacity: .7;
+    border-bottom: 2px solid #eee;
+}
+
+.header-slider-inner .element-card.first {
+    padding-left: 17px;
+}
+
+.element-card .img {
+    height: 24px;
+    aspect-ratio: 1/1;
+}
+
+.element-card .img img {
+    height: 100%;
+    width: 100%;
+}
+
+.element-card p {
+    margin: 0;
+    padding: 5px 1px 14px 0;
+}
+
+.element-card.active {
+    opacity: 1;
+}
+
+.element-card.active p {
+    border-bottom: 2px solid #000;
+}
