@@ -83,6 +83,7 @@
     width: 98%;
     overflow: scroll;
     z-index: 3;
+
 }
 
 .header-slider::-webkit-scrollbar {
