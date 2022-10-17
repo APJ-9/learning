@@ -1,0 +1,98 @@
+.main-section {
+    margin-top: 67px;
+}
+
+.main-card {
+    /* width: 90%; */
+    /* background-color: yellow; */
+    margin: 0 24px 33px 24px;
+}
+
+.slide-show {
+    position: relative;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+.slide-show .images {
+    /* height: 50%; */
+    display: flex;
+    transform: translateX(0);
+    transition: transform 0.5s ease-in-out;
+    position: relative;
+    padding-bottom: 16px;
+
+}
+
+.slide-show .images img {
+    border-radius: 10px;
+    width: 100%;
+    aspect-ratio: 1/.95;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide-show .heart {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    z-index: 1;
+}
+
+
+.slide-show .rightbtn,
+.slide-show .leftbtn {
+    position: absolute;
+    z-index: 1;
+    top: 30%;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 50%;
+    font-weight: bold;
+    /* left: 18px; */
+    margin-left: 18px;
+    display: none;
+}
+
+.slide-show .rightbtn {
+    right: 18px;
+}
+
+.main-card-elements {
+    padding-top: 8px;
+}
+
+.name-and-rating {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 4px;
+    font-size: 13px;
+}
+
+.name-and-rating i {
+    font-size: 13px;
+}
+
+.name-and-rating p {
+    font-size: 15px;
+}
+
+.other-details p {
+    padding-bottom: 2px;
+    font-size: 15px;
+    color: #707070;
+    text-overflow: ellipsis;
+    max-width: 20px;
+    white-space: nowrap;
+}
+
+.other-details .amount {
+    display: flex;
+    align-items: baseline;
+    padding: 8px 0;
+    font-size: 13px;
+}
+
+.other-details .amount span {
+    font-size: 15px;
+}
