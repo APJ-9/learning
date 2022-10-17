@@ -1,0 +1,169 @@
+{
+    "header": [
+        {
+            "title": "Beaches",
+            "imageURL": "https://a0.muscache.com/pictures/10ce1091-c854-40f3-a2fb-defc2995bcaf.jpg"
+        },
+        {
+            "title": "Amazing pools",
+            "imageURL": "https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg"
+        },
+        {
+            "title": "Islands",
+            "imageURL": "https://a0.muscache.com/pictures/8e507f16-4943-4be9-b707-59bd38d56309.jpg"
+        },
+        {
+            "title": "Tropical",
+            "imageURL": "https://a0.muscache.com/pictures/ee9e2a40-ffac-4db9-9080-b351efc3cfc4.jpg"
+        },
+        {
+            "title": "Mansions",
+            "imageURL": "https://a0.muscache.com/pictures/78ba8486-6ba6-4a43-a56d-f556189193da.jpg"
+        },
+        {
+            "title": "OMG!",
+            "imageURL": "https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg"
+        },
+        {
+            "title": "Campervans",
+            "imageURL": "https://a0.muscache.com/pictures/31c1d523-cc46-45b3-957a-da76c30c85f9.jpg"
+        },
+        {
+            "title": "Tiny homes",
+            "imageURL": "https://a0.muscache.com/pictures/35919456-df89-4024-ad50-5fcb7a472df9.jpg"
+        },
+        {
+            "title": "Design",
+            "imageURL": "https://a0.muscache.com/pictures/50861fca-582c-4bcc-89d3-857fb7ca6528.jpg"
+        },
+        {
+            "title": "Artic",
+            "imageURL": "https://a0.muscache.com/pictures/8b44f770-7156-4c7b-b4d3-d92549c8652f.jpg"
+        },
+        {
+            "title": "Cabins",
+            "imageURL": "https://a0.muscache.com/pictures/732edad8-3ae0-49a8-a451-29a8010dcc0c.jpg"
+        },
+        {
+            "title": "Lakefront",
+            "imageURL": "https://a0.muscache.com/pictures/677a041d-7264-4c45-bb72-52bff21eb6e8.jpg"
+        },
+        {
+            "title": "National parks",
+            "imageURL": "https://a0.muscache.com/pictures/c0a24c04-ce1f-490c-833f-987613930eca.jpg"
+        },
+        {
+            "title": "Amazing views",
+            "imageURL": "https://a0.muscache.com/pictures/3b1eb541-46d9-4bef-abc4-c37d77e3c21b.jpg"
+        },
+        {
+            "title": "Caves",
+            "imageURL": "https://a0.muscache.com/pictures/4221e293-4770-4ea8-a4fa-9972158d4004.jpg"
+        },
+        {
+            "title": "Surfing",
+            "imageURL": "https://a0.muscache.com/pictures/957f8022-dfd7-426c-99fd-77ed792f6d7a.jpg"
+        },
+        {
+            "title": "Bed & breakfasts",
+            "imageURL": "https://a0.muscache.com/pictures/5ed8f7c7-2e1f-43a8-9a39-4edfc81a3325.jpg"
+        },
+        {
+            "title": "Earth homes",
+            "imageURL": "https://a0.muscache.com/pictures/d7445031-62c4-46d0-91c3-4f29f9790f7a.jpg"
+        },
+        {
+            "title": "Shared homes",
+            "imageURL": "https://a0.muscache.com/pictures/52c8d856-33d0-445a-a040-a162374de100.jpg"
+        },
+        {
+            "title": "Luxe",
+            "imageURL": "https://a0.muscache.com/pictures/c8e2ed05-c666-47b6-99fc-4cb6edcde6b4.jpg"
+        },
+        {
+            "title": "Farms",
+            "imageURL": "https://a0.muscache.com/pictures/aaa02c2d-9f0d-4c41-878a-68c12ec6c6bd.jpg"
+        },
+        {
+            "title": "Contryside",
+            "imageURL": "https://a0.muscache.com/pictures/6ad4bd95-f086-437d-97e3-14d12155ddfe.jpg"
+        },
+        {
+            "title": "Castles",
+            "imageURL": "https://a0.muscache.com/pictures/1b6a8b70-a3b6-48b5-88e1-2243d9172c06.jpg"
+        },
+        {
+            "title": "A-frames",
+            "imageURL": "https://a0.muscache.com/pictures/1d477273-96d6-4819-9bda-9085f809dad3.jpg"
+        },
+        {
+            "title": "Iconic cities",
+            "imageURL": "https://a0.muscache.com/pictures/ed8b9e47-609b-44c2-9768-33e6a22eccb2.jpg"
+        }
+    ],
+    "card": [
+        {
+            "name": "Chitukl,India",
+            "rating": "New",
+            "address": "Govind Pashu Vihar National Park and Sanctuary",
+            "distance": "4549",
+            "date": "8-13 Oct",
+            "price": "26099",
+            "day": "night",
+            "images": [
+                "images/a1.jpeg",
+                "images/a2.jpg",
+                "images/a3.jpg",
+                "images/a4.jpeg",
+                "images/a5.jpg",
+                "images/a6.jpg",
+                "images/a7.jpg",
+                "images/a8.jpg",
+                "images/a9.jpg",
+                "images/a10.jpg"
+            ]
+        },
+        {
+            "name": "Paklok A. Thalang, Thailand",
+            "rating": "5.0",
+            "address": "Sirinat National Park",
+            "distance": "4549",
+            "date": "21-26 Nov",
+            "price": "139206",
+            "day": "night",
+            "images": [
+                "images/a2.jpg",
+                "images/a1.jpeg",
+                "images/a4.jpeg",
+                "images/a3.jpg",
+                "images/a5.jpg",
+                "images/a7.jpg",
+                "images/a6.jpg",
+                "images/a8.jpg",
+                "images/a9.jpg",
+                "images/a10.jpg"
+            ]
+        },
+        {
+            "name": "Paklok A. Thalang, Thailand",
+            "rating": "5.0",
+            "address": "Sirinat National Park",
+            "distance": "4549",
+            "date": "21-26 Nov",
+            "price": "139206",
+            "day": "night",
+            "images": [
+                "images/a8.jpg",
+                "images/a10.jpg",
+                "images/a4.jpeg",
+                "images/a3.jpg",
+                "images/a5.jpg",
+                "images/a7.jpg",
+                "images/a6.jpg",
+                "images/a2.jpg",
+                "images/a9.jpg",
+                "images/a1.jpeg"
+            ]
+        }
+    ]
+}
