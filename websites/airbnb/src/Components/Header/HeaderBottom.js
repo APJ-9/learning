@@ -5,10 +5,12 @@ import sliderCardData from '../../data.json'
 
 function HeaderBottom() {
     const cards = sliderCardData.header
-    console.log(sliderCardData.header[0])
+    // console.log(sliderCardData.header[0])
+    const [items, setItems] = useState('Beaches')
     function clickHandler(e) {
-        console.log(e.currentTarget)
-        // e.currentTarget.classList.add('active')
+        const data = e.currentTarget.lastChild.innerHTML
+        setItems(data)
+        console.log(items, data)
     }
     return (
         <div className='header-bottom'>

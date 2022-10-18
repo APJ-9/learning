@@ -1,11 +1,11 @@
 .main-section {
-    margin-top: 67px;
+    margin-top: 63px;
 }
 
 .main-card {
     /* width: 90%; */
     /* background-color: yellow; */
-    margin: 0 24px 33px 24px;
+    margin: 0 24px 31px 24px;
 }
 
 .slide-show {
@@ -17,7 +17,6 @@
 .slide-show .images {
     /* height: 50%; */
     display: flex;
-    transform: translateX(0);
     transition: transform 0.5s ease-in-out;
     position: relative;
     padding-bottom: 16px;
@@ -32,31 +31,56 @@
     object-fit: cover;
 }
 
-.slide-show .heart {
-    position: absolute;
-    top: 18px;
-    right: 18px;
-    z-index: 1;
-}
-
-
-.slide-show .rightbtn,
-.slide-show .leftbtn {
-    position: absolute;
-    z-index: 1;
-    top: 30%;
-    padding: 10px 14px;
-    border: none;
-    border-radius: 50%;
-    font-weight: bold;
-    /* left: 18px; */
-    margin-left: 18px;
+.slider-btns {
     display: none;
+    position: absolute;
+    width: 100%;
+    /* display: flex; */
+    justify-content: space-between;
+    top: 45%;
+    z-index: 2;
 }
 
-.slide-show .rightbtn {
-    right: 18px;
+.slide-show:hover .slider-btns {
+    display: flex;
 }
+
+.slider-btns button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    aspect-ratio: 1;
+    margin: 0 5px;
+    border-radius: 50%;
+}
+
+.slider-btns button.right::before {
+    content: '>';
+}
+
+.slider-btns button.left::before {
+    content: '<';
+}
+
+.slide-show .heart {
+    /* display: none; */
+    position: absolute;
+    top: 14px;
+    right: 16px;
+    z-index: 1;
+}
+
+.slide-show .heart .heart-svg {
+    display: block;
+    fill: rgba(0, 0, 0, 0.5);
+    height: 24px;
+    width: 24px;
+    stroke: #fff;
+    stroke-width: 2;
+    overflow: visible;
+}
+
 
 .main-card-elements {
     padding-top: 8px;
