@@ -219,6 +219,48 @@
                 "lowerPlace": "Lazio",
                 "upperPlace": "Rome"
             }
+        ],
+        "footerLastElement": [
+            {
+                "title": "Support",
+                "elements": [
+                    "Help Centre",
+                    "AirCover",
+                    "Safety information",
+                    "Supporting people with disabilities",
+                    "Cancellation options",
+                    "Our COVID-19 Response",
+                    "Report a neighborhood concern"
+                ]
+            },
+            {
+                "title": "Community",
+                "elements": [
+                    "Airbnb.org: disaster relief housing",
+                    "Support Afgan refugees",
+                    "Compacting discrimination"
+                ]
+            },
+            {
+                "title": "Hosting",
+                "elements": [
+                    "Try hosting",
+                    "AirCover for Hosts",
+                    "Explore hosting resources",
+                    "Visit our community forum",
+                    "How to host responsibility"
+                ]
+            },
+            {
+                "title": "Airbnb",
+                "elements": [
+                    "Newsroom",
+                    "Learn about new features",
+                    "Letter from our founders",
+                    "Careers",
+                    "Investors"
+                ]
+            }
         ]
     }
 }

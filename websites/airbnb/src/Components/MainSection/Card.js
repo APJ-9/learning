@@ -5,7 +5,7 @@ import SlideShow from './SlideShow'
 
 function Card() {
     const cards = cardData.card
-    console.log(cards.length)
+    // console.log(cards.length)
     return (
         <div className='main-section'>
             {
