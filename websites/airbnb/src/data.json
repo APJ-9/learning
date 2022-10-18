@@ -106,67 +106,161 @@
             "name": "Chitukl,India",
             "rating": "New",
             "address": "Govind Pashu Vihar National Park and Sanctuary",
-            "distance": "4549",
+            "distance": "4,549",
             "date": "8-13 Oct",
-            "price": "26099",
+            "price": "26,099",
             "day": "night",
             "title": "Beaches",
             "images": [
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
+                "https://a0.muscache.com/im/pictures/4d08a7d4-342c-4986-b6e8-b24bf2cea961.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/997a8468-9b82-4ead-b7be-59e559354aa0.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/09617692-2413-4f32-9e78-68c45166747a.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/3ca1ce7f-90f2-4228-93d2-fbbe983b0c05.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/83df1292-e487-46cb-b953-ec358013f619.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/c10c4a61-02ec-46f2-819e-bfa2fbbabe19.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/5dec41ad-a4c9-4a2e-a54e-2c5471939ac8.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/b522752f-c1cc-4171-a499-8fc5511f3373.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/fce85e1d-f150-470b-8734-afe3496b4482.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/bb5079d1-426f-4014-9b08-9c472915b532.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/6b3de73b-00d1-4e55-930c-162ed69222db.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/5c353907-21e6-4480-9efe-bbc50185b07f.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/296a3ce7-0ba2-4186-97f9-dc8964dc9f70.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/43c9056c-59e8-4f8e-a7e1-42ea64fc2354.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/901659e0-1585-4d1b-bd47-6453c0043edb.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/88f69773-af7a-447f-8e80-3aa376f71209.jpg?im_w=720"
             ]
         },
         {
             "name": "Paklok A. Thalang, Thailand",
             "rating": "5.0",
             "address": "Sirinat National Park",
-            "distance": "4549",
+            "distance": "4,500",
             "date": "21-26 Nov",
-            "price": "139206",
+            "price": "1,39,206",
             "day": "night",
             "title": "Beaches",
             "images": [
-                "images/a2.jpg",
-                "images/a1.jpeg",
-                "images/a4.jpeg",
-                "images/a3.jpg",
-                "images/a5.jpg",
-                "images/a7.jpg",
-                "images/a6.jpg",
-                "images/a8.jpg",
-                "images/a9.jpg",
-                "images/a10.jpg"
+                "https://a0.muscache.com/im/pictures/997a8468-9b82-4ead-b7be-59e559354aa0.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/09617692-2413-4f32-9e78-68c45166747a.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/3ca1ce7f-90f2-4228-93d2-fbbe983b0c05.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/83df1292-e487-46cb-b953-ec358013f619.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/4d08a7d4-342c-4986-b6e8-b24bf2cea961.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/c10c4a61-02ec-46f2-819e-bfa2fbbabe19.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/5dec41ad-a4c9-4a2e-a54e-2c5471939ac8.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/b522752f-c1cc-4171-a499-8fc5511f3373.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/fce85e1d-f150-470b-8734-afe3496b4482.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/bb5079d1-426f-4014-9b08-9c472915b532.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/6b3de73b-00d1-4e55-930c-162ed69222db.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/5c353907-21e6-4480-9efe-bbc50185b07f.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/296a3ce7-0ba2-4186-97f9-dc8964dc9f70.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/43c9056c-59e8-4f8e-a7e1-42ea64fc2354.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/901659e0-1585-4d1b-bd47-6453c0043edb.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/88f69773-af7a-447f-8e80-3aa376f71209.jpg?im_w=720"
             ]
         },
         {
-            "name": "Paklok A. Thalang, Thailand",
-            "rating": "5.0",
-            "address": "Sirinat National Park",
-            "distance": "4549",
-            "date": "21-26 Nov",
-            "price": "139206",
+            "name": "Trincomalee,Sri Lanka",
+            "rating": "4.86",
+            "address": "",
+            "distance": 499,
+            "date": "17-22 Mar",
+            "price": "8,260",
             "day": "night",
-            "title": "beach",
+            "title": "Beaches",
             "images": [
-                "images/a8.jpg",
-                "images/a10.jpg",
-                "images/a4.jpeg",
-                "images/a3.jpg",
-                "images/a5.jpg",
-                "images/a7.jpg",
-                "images/a6.jpg",
-                "images/a2.jpg",
-                "images/a9.jpg",
-                "images/a1.jpeg"
+                "https://a0.muscache.com/im/pictures/66e639a5-ddb5-420c-8589-6786a574af8b.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/c01f64b3-d4fe-4c52-b058-a0a30b66f5ce.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/637aaa72-c32b-4665-9881-5ed254622261.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/6801871c-026e-4f0f-aa10-5dd8574c07c7.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/2b8bc605-b2ca-4517-939c-1055f820e654.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/2002b4fd-4ddd-46f9-910e-97f158a78d38.jpg?im_w=720"
             ]
         }
-    ]
+    ],
+    "footer": {
+        "thingsToDo": [
+            {
+                "upperPlace": "London",
+                "lowerPlace": "England"
+            },
+            {
+                "upperPlace": "Paris",
+                "lowerPlace": "lie-de-France"
+            },
+            {
+                "upperPlace": "New York",
+                "lowerPlace": "New York"
+            },
+            {
+                "upperPlace": "Barcelona",
+                "lowerPlace": "Catalonia"
+            },
+            {
+                "upperPlace": "istanbul",
+                "lowerPlace": "istanbul"
+            },
+            {
+                "lowerPlace": "Indonesia",
+                "upperPlace": "Bali"
+            },
+            {
+                "lowerPlace": "North Holland",
+                "upperPlace": "Amsterdam"
+            },
+            {
+                "lowerPlace": "Community of Madrid",
+                "upperPlace": "Miami"
+            },
+            {
+                "lowerPlace": "California",
+                "upperPlace": "Los Angles"
+            },
+            {
+                "lowerPlace": "Lazio",
+                "upperPlace": "Rome"
+            }
+        ],
+        "footerLastElement": [
+            {
+                "title": "Support",
+                "elements": [
+                    "Help Centre",
+                    "AirCover",
+                    "Safety information",
+                    "Supporting people with disabilities",
+                    "Cancellation options",
+                    "Our COVID-19 Response",
+                    "Report a neighborhood concern"
+                ]
+            },
+            {
+                "title": "Community",
+                "elements": [
+                    "Airbnb.org: disaster relief housing",
+                    "Support Afgan refugees",
+                    "Compacting discrimination"
+                ]
+            },
+            {
+                "title": "Hosting",
+                "elements": [
+                    "Try hosting",
+                    "AirCover for Hosts",
+                    "Explore hosting resources",
+                    "Visit our community forum",
+                    "How to host responsibility"
+                ]
+            },
+            {
+                "title": "Airbnb",
+                "elements": [
+                    "Newsroom",
+                    "Learn about new features",
+                    "Letter from our founders",
+                    "Careers",
+                    "Investors"
+                ]
+            }
+        ]
+    }
 }
