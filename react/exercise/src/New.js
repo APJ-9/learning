@@ -1,10 +1,13 @@
 import React from 'react'
+import './App.css';
 
 function New({onClick}) {
   return (
     <div className="displ">
-                  <h1  onMouseOver={onClick}>Hello</h1>
-
+      <div className="container">
+                  <h1>Hello</h1>
+                  </div>
+                  <button className='close'  onClick={onClick}>X</button>
                 </div>
   )
 }

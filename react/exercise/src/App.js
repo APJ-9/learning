@@ -6,17 +6,14 @@ import ButtonList from './ButtonList';
 const DB = data.header
 function App() {
   const [isShow, setIsShow] = useState(false)
-  const [disp,setDisp] = useState(false)
+
   const handleShow = () => {
     setIsShow(true)
   }
   const handleClose =() => {
     setIsShow(false)
   }
-  const showDisplay = () =>{
-    setDisp(disp=>!disp)
 
-  }
 console.log(DB)
   return (
     <div className="App">
@@ -28,13 +25,8 @@ console.log(DB)
         DB.map((list,idx)=>
         <div key={idx}>
             {/* <button key={idx} >{list.title}</button> */}
-            <ButtonList value={list.title} onClick={showDisplay} />
-            {
-              disp && <div className="displ">
-              <h1>{list.title}</h1>
-
-            </div>
-            }
+            <ButtonList value={list.title} />
+            
           </div>
         )
       }

@@ -1,4 +1,5 @@
 import React from 'react'
+import './App.css';
 import { useState } from 'react';
 
 function ButtonList({value,key}) {
@@ -11,10 +12,13 @@ function ButtonList({value,key}) {
     }
   return (
     <div className="disp">
-                  <button key={key} onMouseEnter={showDisplay} onMouseLeave={hideDisplay}>{value}</button>
+                  <button key={key} onClick={showDisplay} >{value}</button>
                   {
               disp && <div className="displ">
-              <h1>{value}</h1>
+                <div className="container">
+                    <h1>{value}</h1>
+                </div>
+              <button className='close' onClick={hideDisplay}>X</button>
 
             </div>
             }
